@@ -3,7 +3,7 @@
   <div class="card info">
     <div class="card-body">
       <h4 class="card-title"><u class="underline">{{state.picture.title}}</u></h4>
-      <p class="card-text">{{state.picture.explanation}}</p>
+      <p class="card-text text-light">{{state.picture.explanation}}</p>
     </div>
   </div>
 </div>
@@ -36,6 +36,9 @@ export default {
   margin-left: 50px;
   align-content: center;
   margin-top: 50px;
+  background-color: #121212;
+  border: 11px ridge #F5F5F5;
+  font-size: 30px;
 }
 
 .underline{
@@ -47,6 +50,7 @@ export default {
   max-width: 800px;
   max-height: 800px;
   border-radius: 5%;
+  border: 11px ridge #F5F5F5;
 }
 
 </style>

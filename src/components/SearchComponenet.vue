@@ -1,8 +1,8 @@
 <template>
-  <div class='SearchComponent'>
+  <div class='SearchComponent col-12'>
     <form @submit.prevent="searchApod()">
 <input v-model="state.query" id="datefield" type="date" min='1971-01-01' max='2021-01-19'>
-<button type="submit" class="btn-btn-outline btn-success">Search</button>
+<button type="submit" class="btn-btn-outline btn-info">Search</button>
   </form>
   </div>
 </template>
@@ -29,7 +29,6 @@ export default {
   }
 }
 </script>
-
 <style lang="scss" scoped>
 
 </style>
